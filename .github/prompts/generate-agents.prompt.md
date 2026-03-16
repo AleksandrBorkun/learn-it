@@ -1,6 +1,7 @@
 ---
 agent: dev
 ---
+
 # Setup Engineering Standards
 
 Run the following commands to install APM packages and generate the AGENTS.md guardrails file:
@@ -35,21 +36,25 @@ apm compile
 ## Installed Packages
 
 By default, spec2cloud includes:
+
 - **danielmeppiel/azure-standards** - General engineering, documentation, agent-first patterns, CI/CD, security
+
+> **Note**: If your project targets **Vercel** for hosting and **Firebase** for auth/storage (instead of Azure), review the generated `AGENTS.md` and remove or override any Azure-specific rules that conflict with your deployment target.
 
 You can add more packages by editing `apm.yml`:
 
 ```yaml
 dependencies:
   apm:
-    - danielmeppiel/azure-standards@1.0.0
-    - danielmeppiel/python-backend@1.0.0  # Optional: Python backend rules
-    - danielmeppiel/react-frontend@1.0.0  # Optional: React frontend rules
+    - danielmeppiel/azure-standards@1.0.0 # General engineering standards (review for Azure-specific rules)
+    - danielmeppiel/python-backend@1.0.0 # Optional: Python backend rules
+    - danielmeppiel/react-frontend@1.0.0 # Optional: React frontend rules
 ```
 
 ## Expected Output
 
 After running these commands, you should see:
+
 - `apm_modules/` directory with installed packages
 - `AGENTS.md` file at the project root with consolidated standards
 

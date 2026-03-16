@@ -1,4 +1,4 @@
-```prompt
+````prompt
 ---
 agent: architect
 ---
@@ -21,7 +21,7 @@ Create ADRs when significant architectural decisions need to be documented, incl
 - Security and compliance measures
 - Caching strategies
 - Messaging patterns
-- Cloud service selections (Azure services)
+- Cloud service selections (Vercel, Firebase)
 
 ## Input Sources
 
@@ -38,7 +38,7 @@ Create each ADR using this structure:
 ```markdown
 # [ADR Number] [Short Title in Kebab-Case]
 
-**Date**: YYYY-MM-DD  
+**Date**: YYYY-MM-DD
 **Status**: Proposed | Accepted | Deprecated | Superseded
 
 ## Context
@@ -131,19 +131,21 @@ List at least 3 options that were evaluated:
 - Links to other ADRs
 - External documentation
 - Research sources
-```
+````
 
 ## Naming and Numbering Convention
 
 **File Naming**: `specs/adr/NNNN-short-title.md`
 
 **Examples**:
+
 - `0001-database-choice.md`
 - `0002-frontend-framework.md`
 - `0003-authentication-strategy.md`
 - `0004-deployment-platform.md`
 
 **Sequential Numbering**:
+
 1. Check existing ADRs to find the highest number
 2. Create new ADR with next sequential number (zero-padded to 4 digits)
 3. Never reuse numbers, even for superseded ADRs
@@ -154,12 +156,13 @@ Before creating ADRs, use your tools to research best practices:
 
 1. **Context7** - Research library documentation and patterns
 2. **DeepWiki** - Analyze reference implementations in similar projects
-3. **Microsoft Docs MCP** - Get official Microsoft/Azure best practices
-4. **Azure MCP** - Research Azure-specific architectural patterns
+3. **Vercel Docs** - Research Vercel hosting patterns, serverless constraints, and best practices
+4. **Firebase Docs** - Research Firebase Auth, Firestore, and Storage best practices
 
 ## Quality Guidelines
 
 ### Must Have:
+
 - ✅ At least 3 considered options
 - ✅ Clear decision rationale
 - ✅ Both positive and negative consequences
@@ -168,12 +171,14 @@ Before creating ADRs, use your tools to research best practices:
 - ✅ Links to relevant PRD/FRD sections
 
 ### Should Have:
+
 - ✅ Decision drivers clearly stated
 - ✅ Implementation notes for complex decisions
 - ✅ References to research sources
 - ✅ Migration path (if changing existing architecture)
 
 ### Avoid:
+
 - ❌ Single option (no alternatives considered)
 - ❌ Missing rationale
 - ❌ Vague consequences
@@ -193,15 +198,17 @@ Before creating ADRs, use your tools to research best practices:
 ## Example ADR Topics by Project Type
 
 ### Web Application
+
 - Frontend framework (React vs Angular vs Vue)
 - Backend framework (.NET vs Node vs Python)
 - Database (SQL vs NoSQL)
 - Authentication (OAuth, JWT, session-based)
 - State management (Redux, Context, Zustand)
 - API design (REST vs GraphQL)
-- Deployment (App Service, Container Apps, Static Web Apps)
+- Deployment (Vercel hosting, Firebase services)
 
 ### Microservices
+
 - Service communication (REST, gRPC, message queues)
 - Service discovery
 - API gateway
@@ -210,6 +217,7 @@ Before creating ADRs, use your tools to research best practices:
 - Circuit breakers and resilience
 
 ### AI/ML Application
+
 - Model serving approach
 - Agent orchestration framework
 - Vector database selection
@@ -223,4 +231,7 @@ Before creating ADRs, use your tools to research best practices:
 - Keep ADRs **focused** - one decision per ADR
 - Make ADRs **actionable** - developers should understand implications
 - Document **trade-offs** honestly - include negatives, not just positives
+
+```
+
 ```
