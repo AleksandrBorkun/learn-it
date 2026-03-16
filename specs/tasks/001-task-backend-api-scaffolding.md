@@ -62,16 +62,16 @@ The backend must expose a RESTful API consumed by the frontend via generated SDK
 
 ## Acceptance Criteria
 
-| #    | Criterion                                                                                                    |
-| ---- | ------------------------------------------------------------------------------------------------------------ |
-| AC-1 | The backend project builds and starts without errors.                                                        |
-| AC-2 | `GET /health` returns a 200 response with status information.                                                |
-| AC-3 | The middleware pipeline handles CORS, logging, error handling, and request validation.                        |
-| AC-4 | Global error handler returns consistent error response shapes for both expected and unexpected errors.       |
-| AC-5 | OpenAPI documentation is generated and accessible via a docs endpoint.                                       |
-| AC-6 | The project is configured for Vercel deployment with appropriate build and environment variable setup.       |
-| AC-7 | Linting and formatting pass on all source files.                                                             |
-| AC-8 | A local dev server starts with hot-reload.                                                                   |
+| #    | Criterion                                                                                              |
+| ---- | ------------------------------------------------------------------------------------------------------ |
+| AC-1 | The backend project builds and starts without errors.                                                  |
+| AC-2 | `GET /health` returns a 200 response with status information.                                          |
+| AC-3 | The middleware pipeline handles CORS, logging, error handling, and request validation.                 |
+| AC-4 | Global error handler returns consistent error response shapes for both expected and unexpected errors. |
+| AC-5 | OpenAPI documentation is generated and accessible via a docs endpoint.                                 |
+| AC-6 | The project is configured for Vercel deployment with appropriate build and environment variable setup. |
+| AC-7 | Linting and formatting pass on all source files.                                                       |
+| AC-8 | A local dev server starts with hot-reload.                                                             |
 
 ---
 

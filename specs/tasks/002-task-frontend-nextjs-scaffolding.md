@@ -67,17 +67,17 @@ Set up the frontend web application using Next.js with a mobile-first architectu
 
 ## Acceptance Criteria
 
-| #    | Criterion                                                                                                    |
-| ---- | ------------------------------------------------------------------------------------------------------------ |
-| AC-1 | The Next.js application builds and starts without errors.                                                    |
-| AC-2 | The application shell renders with header, navigation, content area, and footer.                             |
-| AC-3 | Routing is configured with public and authenticated route groups; unauthenticated users are redirected.      |
-| AC-4 | The mobile-first responsive layout renders correctly at 320px, 768px, and 1024px+ viewports.                |
-| AC-5 | Navigation adapts to mobile (hamburger/bottom tab) and desktop (sidebar/top nav) patterns.                   |
-| AC-6 | The API client is configured and can make requests to the backend health endpoint.                            |
-| AC-7 | State management is set up for authentication state and API data.                                            |
-| AC-8 | Linting and formatting pass on all source files.                                                             |
-| AC-9 | The project is deployable to Vercel with correct environment variable handling.                               |
+| #    | Criterion                                                                                               |
+| ---- | ------------------------------------------------------------------------------------------------------- |
+| AC-1 | The Next.js application builds and starts without errors.                                               |
+| AC-2 | The application shell renders with header, navigation, content area, and footer.                        |
+| AC-3 | Routing is configured with public and authenticated route groups; unauthenticated users are redirected. |
+| AC-4 | The mobile-first responsive layout renders correctly at 320px, 768px, and 1024px+ viewports.            |
+| AC-5 | Navigation adapts to mobile (hamburger/bottom tab) and desktop (sidebar/top nav) patterns.              |
+| AC-6 | The API client is configured and can make requests to the backend health endpoint.                      |
+| AC-7 | State management is set up for authentication state and API data.                                       |
+| AC-8 | Linting and formatting pass on all source files.                                                        |
+| AC-9 | The project is deployable to Vercel with correct environment variable handling.                         |
 
 ---
 

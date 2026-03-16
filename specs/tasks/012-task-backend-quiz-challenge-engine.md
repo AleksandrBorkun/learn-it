@@ -35,30 +35,36 @@ Implement the backend engine that accepts user submissions for all challenge typ
 ### Evaluation Logic (per challenge type)
 
 **Multiple-Choice (QUIZ-3a)**
+
 - Compare selected option index to the correct answer index.
 - Return: correct/incorrect, explanation text.
 
 **Multiple-Select (QUIZ-3b)**
+
 - Compare selected option indices to the correct answer set.
 - Return: correct/incorrect, which options were right/wrong, explanation text.
 
 **Write-a-Function (QUIZ-3c)**
+
 - Accept user code; evaluation happens client-side (Task 014). The backend receives test-case results from the client.
 - Record whether all test cases passed.
 - Return: per-test-case pass/fail, overall pass/fail, explanation text.
 
 **Fill-in-the-Blank (QUIZ-3d)**
+
 - Compare user's filled values against expected completions.
 - Evaluation may happen client-side; backend records results.
 - Return: per-blank correctness, overall pass/fail, explanation text.
 
 **System Design / Diagram (QUIZ-3e, QUIZ-15–20)**
+
 - Accept the user's graph submission: selected node IDs and edge pairs.
 - Compare against one or more valid solution graphs defined in the challenge metadata.
 - Determine: correct nodes, missing nodes, unnecessary nodes, correct connections, missing connections, unnecessary connections.
 - Return: per-node and per-connection correctness feedback, overall pass/fail, explanation.
 
 **Prompt-Based / Rubric (QUIZ-3f, QUIZ-21–25)**
+
 - Accept the user's free-form text/code response.
 - Evaluate against the predefined Markdown rubric: check for expected keywords, naming conventions, and structural requirements.
 - Return: per-rubric-criterion pass/fail, overall pass/fail, explanation.
@@ -80,16 +86,16 @@ Implement the backend engine that accepts user submissions for all challenge typ
 
 ## Acceptance Criteria
 
-| #    | Criterion                                                                                                    |
-| ---- | ------------------------------------------------------------------------------------------------------------ |
-| AC-1 | A multiple-choice submission returns correct/incorrect with explanation.                                      |
-| AC-2 | A multiple-select submission identifies which options were correct and which were wrong.                      |
-| AC-3 | A write-a-function submission records per-test-case results and overall pass/fail.                            |
+| #    | Criterion                                                                                                                     |
+| ---- | ----------------------------------------------------------------------------------------------------------------------------- |
+| AC-1 | A multiple-choice submission returns correct/incorrect with explanation.                                                      |
+| AC-2 | A multiple-select submission identifies which options were correct and which were wrong.                                      |
+| AC-3 | A write-a-function submission records per-test-case results and overall pass/fail.                                            |
 | AC-4 | A system design submission evaluates nodes and connections against valid solution graphs, accepting multiple correct answers. |
-| AC-5 | A prompt-based submission evaluates against rubric criteria and reports per-criterion pass/fail.              |
-| AC-6 | Incorrect submissions are recorded in attempt history.                                                        |
-| AC-7 | Re-attempting a previously passed challenge does not change the "passed" status.                              |
-| AC-8 | Events are published on correct submissions for downstream gamification consumption.                          |
+| AC-5 | A prompt-based submission evaluates against rubric criteria and reports per-criterion pass/fail.                              |
+| AC-6 | Incorrect submissions are recorded in attempt history.                                                                        |
+| AC-7 | Re-attempting a previously passed challenge does not change the "passed" status.                                              |
+| AC-8 | Events are published on correct submissions for downstream gamification consumption.                                          |
 
 ---
 

@@ -59,14 +59,14 @@ Implement the frontend for prompt-based challenges where users provide free-form
 
 ## Acceptance Criteria
 
-| #    | Criterion                                                                                                    |
-| ---- | ------------------------------------------------------------------------------------------------------------ |
-| AC-1 | The challenge prompt renders correctly as formatted text.                                                     |
-| AC-2 | The user can enter a free-form text or code response in the input area.                                      |
-| AC-3 | On submission, the response is evaluated against the rubric and per-criterion pass/fail is displayed.        |
-| AC-4 | Incorrect naming conventions are specifically identified in the feedback.                                     |
-| AC-5 | The overall pass/fail result is clearly displayed with the explanation.                                       |
-| AC-6 | The challenge is fully usable at 320px viewport width.                                                        |
+| #    | Criterion                                                                                             |
+| ---- | ----------------------------------------------------------------------------------------------------- |
+| AC-1 | The challenge prompt renders correctly as formatted text.                                             |
+| AC-2 | The user can enter a free-form text or code response in the input area.                               |
+| AC-3 | On submission, the response is evaluated against the rubric and per-criterion pass/fail is displayed. |
+| AC-4 | Incorrect naming conventions are specifically identified in the feedback.                             |
+| AC-5 | The overall pass/fail result is clearly displayed with the explanation.                               |
+| AC-6 | The challenge is fully usable at 320px viewport width.                                                |
 
 ---
 

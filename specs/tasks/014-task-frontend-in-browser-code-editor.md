@@ -70,16 +70,16 @@ Integrate an in-browser code editor component with sandboxed client-side code ex
 
 ## Acceptance Criteria
 
-| #    | Criterion                                                                                                    |
-| ---- | ------------------------------------------------------------------------------------------------------------ |
+| #    | Criterion                                                                                                                                |
+| ---- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | AC-1 | The code editor renders with syntax highlighting, line numbers, auto-indentation, and bracket matching for all four supported languages. |
-| AC-2 | Clicking "Run" executes user code and displays output in the output panel.                                   |
-| AC-3 | Code execution is sandboxed — no access to host system, network, or other users' data.                       |
-| AC-4 | A write-a-function challenge loads starter code; a fill-in-the-blank challenge renders editable and read-only regions. |
-| AC-5 | Clicking "Submit" evaluates code against test cases and returns pass/fail results.                           |
-| AC-6 | If code execution exceeds the time/resource limit, it is terminated with a clear error message.              |
-| AC-7 | The "Run" action does not count toward the free-tier attempt limit; only "Submit" does.                      |
-| AC-8 | The editor is usable at 320px viewport width with appropriately sized touch targets.                         |
+| AC-2 | Clicking "Run" executes user code and displays output in the output panel.                                                               |
+| AC-3 | Code execution is sandboxed — no access to host system, network, or other users' data.                                                   |
+| AC-4 | A write-a-function challenge loads starter code; a fill-in-the-blank challenge renders editable and read-only regions.                   |
+| AC-5 | Clicking "Submit" evaluates code against test cases and returns pass/fail results.                                                       |
+| AC-6 | If code execution exceeds the time/resource limit, it is terminated with a clear error message.                                          |
+| AC-7 | The "Run" action does not count toward the free-tier attempt limit; only "Submit" does.                                                  |
+| AC-8 | The editor is usable at 320px viewport width with appropriately sized touch targets.                                                     |
 
 ---
 

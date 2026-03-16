@@ -60,15 +60,15 @@ Implement the backend service for generating certificates of completion when a u
 
 ## Acceptance Criteria
 
-| #    | Criterion                                                                                                    |
-| ---- | ------------------------------------------------------------------------------------------------------------ |
-| AC-1 | Upon completing all lessons in a track, a certificate is automatically generated for the user.                |
-| AC-2 | The certificate includes: user's display name, track name, completion date, and unique certificate ID.       |
-| AC-3 | The certificate is downloadable as an image or PDF.                                                           |
-| AC-4 | The public verification URL confirms the certificate's authenticity and displays its details.                 |
-| AC-5 | An invalid certificate UID returns a 404 response.                                                            |
-| AC-6 | Duplicate certificates are not created for the same user + track combination.                                 |
-| AC-7 | `GET /api/certificates` returns all certificates for the authenticated user.                                  |
+| #    | Criterion                                                                                              |
+| ---- | ------------------------------------------------------------------------------------------------------ |
+| AC-1 | Upon completing all lessons in a track, a certificate is automatically generated for the user.         |
+| AC-2 | The certificate includes: user's display name, track name, completion date, and unique certificate ID. |
+| AC-3 | The certificate is downloadable as an image or PDF.                                                    |
+| AC-4 | The public verification URL confirms the certificate's authenticity and displays its details.          |
+| AC-5 | An invalid certificate UID returns a 404 response.                                                     |
+| AC-6 | Duplicate certificates are not created for the same user + track combination.                          |
+| AC-7 | `GET /api/certificates` returns all certificates for the authenticated user.                           |
 
 ---
 

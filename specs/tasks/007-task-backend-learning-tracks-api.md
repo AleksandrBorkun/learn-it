@@ -55,15 +55,15 @@ Implement the backend API endpoints that serve learning track data, module listi
 
 ## Acceptance Criteria
 
-| #    | Criterion                                                                                                    |
-| ---- | ------------------------------------------------------------------------------------------------------------ |
-| AC-1 | `GET /api/tracks` returns all four tracks with correct metadata.                                             |
-| AC-2 | `GET /api/tracks/:slug` returns the track's modules and lessons in correct order with difficulty levels.     |
-| AC-3 | `GET /api/tracks/:slug/modules/:moduleSlug/lessons/:lessonSlug` returns fully rendered lesson content.       |
+| #    | Criterion                                                                                                      |
+| ---- | -------------------------------------------------------------------------------------------------------------- |
+| AC-1 | `GET /api/tracks` returns all four tracks with correct metadata.                                               |
+| AC-2 | `GET /api/tracks/:slug` returns the track's modules and lessons in correct order with difficulty levels.       |
+| AC-3 | `GET /api/tracks/:slug/modules/:moduleSlug/lessons/:lessonSlug` returns fully rendered lesson content.         |
 | AC-4 | Advanced content is gated: free-tier users receive metadata but not full content for advanced modules/lessons. |
-| AC-5 | Lesson responses include navigation references (next/previous lesson).                                       |
-| AC-6 | Challenge definitions are returned for each module with correct type and metadata.                            |
-| AC-7 | Content is sourced through the content provider interface (not directly from the file system).                |
+| AC-5 | Lesson responses include navigation references (next/previous lesson).                                         |
+| AC-6 | Challenge definitions are returned for each module with correct type and metadata.                             |
+| AC-7 | Content is sourced through the content provider interface (not directly from the file system).                 |
 
 ---
 

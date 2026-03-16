@@ -86,17 +86,17 @@ Implement the frontend representation of the freemium model: Google Ads integrat
 
 ## Acceptance Criteria
 
-| #    | Criterion                                                                                                    |
-| ---- | ------------------------------------------------------------------------------------------------------------ |
-| AC-1 | Free-tier users see ads on dashboard, track overview, lesson pages, and quiz pages.                          |
-| AC-2 | Premium users see no ads anywhere.                                                                            |
-| AC-3 | Ads do not cause layout shifts on any viewport size.                                                          |
-| AC-4 | Advanced content shows a lock indicator with an upgrade prompt for free-tier users.                           |
-| AC-5 | The attempt counter displays correctly and updates on each incorrect submission.                              |
-| AC-6 | After 5 incorrect submissions, the lockout UI shows with a countdown timer and upgrade call-to-action.       |
-| AC-7 | The "Go Premium" page lists all premium benefits with a call-to-action.                                      |
-| AC-8 | After upgrading, ads disappear and content unlocks immediately without page reload.                          |
-| AC-9 | All freemium UI elements are functional at 320px viewport width.                                             |
+| #    | Criterion                                                                                              |
+| ---- | ------------------------------------------------------------------------------------------------------ |
+| AC-1 | Free-tier users see ads on dashboard, track overview, lesson pages, and quiz pages.                    |
+| AC-2 | Premium users see no ads anywhere.                                                                     |
+| AC-3 | Ads do not cause layout shifts on any viewport size.                                                   |
+| AC-4 | Advanced content shows a lock indicator with an upgrade prompt for free-tier users.                    |
+| AC-5 | The attempt counter displays correctly and updates on each incorrect submission.                       |
+| AC-6 | After 5 incorrect submissions, the lockout UI shows with a countdown timer and upgrade call-to-action. |
+| AC-7 | The "Go Premium" page lists all premium benefits with a call-to-action.                                |
+| AC-8 | After upgrading, ads disappear and content unlocks immediately without page reload.                    |
+| AC-9 | All freemium UI elements are functional at 320px viewport width.                                       |
 
 ---
 

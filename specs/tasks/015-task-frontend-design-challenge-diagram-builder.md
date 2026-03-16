@@ -68,15 +68,15 @@ Implement the card/node-based diagram builder for system/software design challen
 
 ## Acceptance Criteria
 
-| #    | Criterion                                                                                                    |
-| ---- | ------------------------------------------------------------------------------------------------------------ |
-| AC-1 | Available cards for a design challenge are rendered in a palette based on the challenge definition.           |
-| AC-2 | A user can drag cards from the palette to the canvas and reposition them.                                    |
-| AC-3 | A user can create connections between placed cards.                                                           |
+| #    | Criterion                                                                                                              |
+| ---- | ---------------------------------------------------------------------------------------------------------------------- |
+| AC-1 | Available cards for a design challenge are rendered in a palette based on the challenge definition.                    |
+| AC-2 | A user can drag cards from the palette to the canvas and reposition them.                                              |
+| AC-3 | A user can create connections between placed cards.                                                                    |
 | AC-4 | On submission, the user's diagram is evaluated and feedback shows correct, missing, and unnecessary nodes/connections. |
-| AC-5 | A challenge with multiple valid solutions accepts any valid configuration as correct.                         |
-| AC-6 | The diagram builder is functional on a 320px-wide mobile screen with touch input.                            |
-| AC-7 | Cards and connections can be removed from the canvas.                                                         |
+| AC-5 | A challenge with multiple valid solutions accepts any valid configuration as correct.                                  |
+| AC-6 | The diagram builder is functional on a 320px-wide mobile screen with touch input.                                      |
+| AC-7 | Cards and connections can be removed from the canvas.                                                                  |
 
 ---
 

@@ -59,15 +59,15 @@ Implement the backend authentication flow using Google OAuth (Sign in with Googl
 
 ## Acceptance Criteria
 
-| #    | Criterion                                                                                                    |
-| ---- | ------------------------------------------------------------------------------------------------------------ |
+| #    | Criterion                                                                                                                         |
+| ---- | --------------------------------------------------------------------------------------------------------------------------------- |
 | AC-1 | A valid Google OAuth credential results in a session token and user record creation (first visit) or retrieval (returning visit). |
-| AC-2 | The authentication middleware correctly blocks unauthenticated requests to protected endpoints (401 response). |
-| AC-3 | `GET /api/users/me` returns the correct user profile for the authenticated user.                             |
-| AC-4 | `PATCH /api/users/me` updates the display name and persists the change.                                      |
-| AC-5 | `POST /api/auth/logout` invalidates the session; subsequent requests with that token return 401.             |
-| AC-6 | Invalid or expired Google tokens return an appropriate error response.                                       |
-| AC-7 | Session expiration is enforced per the configured policy.                                                     |
+| AC-2 | The authentication middleware correctly blocks unauthenticated requests to protected endpoints (401 response).                    |
+| AC-3 | `GET /api/users/me` returns the correct user profile for the authenticated user.                                                  |
+| AC-4 | `PATCH /api/users/me` updates the display name and persists the change.                                                           |
+| AC-5 | `POST /api/auth/logout` invalidates the session; subsequent requests with that token return 401.                                  |
+| AC-6 | Invalid or expired Google tokens return an appropriate error response.                                                            |
+| AC-7 | Session expiration is enforced per the configured policy.                                                                         |
 
 ---
 

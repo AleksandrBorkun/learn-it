@@ -76,17 +76,17 @@ Implement the frontend code snippet library: the library page with list/grid vie
 
 ## Acceptance Criteria
 
-| #    | Criterion                                                                                                    |
-| ---- | ------------------------------------------------------------------------------------------------------------ |
-| AC-1 | A user can save a code snippet from a lesson page and find it in their snippet library.                      |
-| AC-2 | A user can create a new snippet manually with title, code, language, and tags.                               |
-| AC-3 | A user can search snippets by title or code content and see matching results.                                |
-| AC-4 | A user can filter snippets by tag or programming language.                                                    |
-| AC-5 | A user can edit a snippet's title, code, tags, and language.                                                  |
-| AC-6 | A user can delete a snippet (with confirmation) and it no longer appears in the library.                     |
-| AC-7 | Snippet detail view shows syntax-highlighted code and a working copy-to-clipboard button.                    |
-| AC-8 | A snippet saved from a lesson includes a link back to the source lesson.                                     |
-| AC-9 | The snippet library is fully usable at 320px viewport width.                                                  |
+| #    | Criterion                                                                                 |
+| ---- | ----------------------------------------------------------------------------------------- |
+| AC-1 | A user can save a code snippet from a lesson page and find it in their snippet library.   |
+| AC-2 | A user can create a new snippet manually with title, code, language, and tags.            |
+| AC-3 | A user can search snippets by title or code content and see matching results.             |
+| AC-4 | A user can filter snippets by tag or programming language.                                |
+| AC-5 | A user can edit a snippet's title, code, tags, and language.                              |
+| AC-6 | A user can delete a snippet (with confirmation) and it no longer appears in the library.  |
+| AC-7 | Snippet detail view shows syntax-highlighted code and a working copy-to-clipboard button. |
+| AC-8 | A snippet saved from a lesson includes a link back to the source lesson.                  |
+| AC-9 | The snippet library is fully usable at 320px viewport width.                              |
 
 ---
 

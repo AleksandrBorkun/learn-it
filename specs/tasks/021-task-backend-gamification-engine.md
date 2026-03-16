@@ -82,17 +82,17 @@ Implement the backend gamification engine: points calculation and accumulation, 
 
 ## Acceptance Criteria
 
-| #    | Criterion                                                                                                    |
-| ---- | ------------------------------------------------------------------------------------------------------------ |
-| AC-1 | A user earns points after completing a lesson, passing a quiz, or solving a code challenge.                  |
-| AC-2 | Points accumulate on the user's lifetime total without expiration.                                           |
-| AC-3 | A user who completes their first code challenge receives the corresponding badge.                            |
-| AC-4 | A user who completes an entire track earns the track-completion badge.                                       |
-| AC-5 | A user who returns on consecutive days earns increasing daily bonus points.                                  |
-| AC-6 | Daily streak badges (3-day, 7-day, 30-day) are awarded at the correct thresholds.                           |
-| AC-7 | The leaderboard returns the Top 10 and Top 100 with correct ranking by total points.                         |
-| AC-8 | A user outside the top 100 can see their own rank via `GET /api/leaderboard/me`.                             |
-| AC-9 | Badge notifications are created when badges are earned and can be retrieved and marked as read.              |
+| #    | Criterion                                                                                       |
+| ---- | ----------------------------------------------------------------------------------------------- |
+| AC-1 | A user earns points after completing a lesson, passing a quiz, or solving a code challenge.     |
+| AC-2 | Points accumulate on the user's lifetime total without expiration.                              |
+| AC-3 | A user who completes their first code challenge receives the corresponding badge.               |
+| AC-4 | A user who completes an entire track earns the track-completion badge.                          |
+| AC-5 | A user who returns on consecutive days earns increasing daily bonus points.                     |
+| AC-6 | Daily streak badges (3-day, 7-day, 30-day) are awarded at the correct thresholds.               |
+| AC-7 | The leaderboard returns the Top 10 and Top 100 with correct ranking by total points.            |
+| AC-8 | A user outside the top 100 can see their own rank via `GET /api/leaderboard/me`.                |
+| AC-9 | Badge notifications are created when badges are earned and can be retrieved and marked as read. |
 
 ---
 

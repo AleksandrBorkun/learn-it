@@ -63,15 +63,15 @@ Implement the frontend pages for browsing the track catalog, viewing track overv
 
 ## Acceptance Criteria
 
-| #    | Criterion                                                                                                    |
-| ---- | ------------------------------------------------------------------------------------------------------------ |
-| AC-1 | The track catalog displays all four tracks with names, descriptions, durations, and difficulty ranges.        |
-| AC-2 | The track overview shows modules and lessons hierarchically with difficulty level indicators.                 |
-| AC-3 | Advanced modules/lessons show a "Premium" lock indicator for free-tier users.                                 |
+| #    | Criterion                                                                                                      |
+| ---- | -------------------------------------------------------------------------------------------------------------- |
+| AC-1 | The track catalog displays all four tracks with names, descriptions, durations, and difficulty ranges.         |
+| AC-2 | The track overview shows modules and lessons hierarchically with difficulty level indicators.                  |
+| AC-3 | Advanced modules/lessons show a "Premium" lock indicator for free-tier users.                                  |
 | AC-4 | A lesson page renders Markdown content correctly including syntax-highlighted code blocks, images, and tables. |
-| AC-5 | Previous/Next lesson navigation works correctly, including boundary cases (first/last lesson).                |
-| AC-6 | The lesson position indicator shows the correct position (e.g., "Lesson 3 of 7").                            |
-| AC-7 | All pages are fully usable at 320px viewport width without horizontal scrolling.                             |
+| AC-5 | Previous/Next lesson navigation works correctly, including boundary cases (first/last lesson).                 |
+| AC-6 | The lesson position indicator shows the correct position (e.g., "Lesson 3 of 7").                              |
+| AC-7 | All pages are fully usable at 320px viewport width without horizontal scrolling.                               |
 
 ---
 

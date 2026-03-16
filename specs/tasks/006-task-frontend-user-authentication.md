@@ -66,15 +66,15 @@ Implement the frontend authentication experience: the "Sign in with Google" flow
 
 ## Acceptance Criteria
 
-| #    | Criterion                                                                                                    |
-| ---- | ------------------------------------------------------------------------------------------------------------ |
+| #    | Criterion                                                                                                                 |
+| ---- | ------------------------------------------------------------------------------------------------------------------------- |
 | AC-1 | A new user can click "Sign in with Google," authenticate, and land on the dashboard with their name and avatar displayed. |
-| AC-2 | A returning user can sign in and see their previous state (progress, snippets, badges) intact.               |
-| AC-3 | Navigating to an authenticated page while unauthenticated redirects to sign-in, then back after login.       |
-| AC-4 | A user can edit their display name on the profile page and see it reflected across the app immediately.      |
-| AC-5 | A user can log out and is redirected to the landing page; page refresh does not restore the session.         |
-| AC-6 | If Google sign-in fails, a clear error message is displayed with a retry option.                             |
-| AC-7 | The sign-in and profile pages are fully usable at 320px viewport width.                                      |
+| AC-2 | A returning user can sign in and see their previous state (progress, snippets, badges) intact.                            |
+| AC-3 | Navigating to an authenticated page while unauthenticated redirects to sign-in, then back after login.                    |
+| AC-4 | A user can edit their display name on the profile page and see it reflected across the app immediately.                   |
+| AC-5 | A user can log out and is redirected to the landing page; page refresh does not restore the session.                      |
+| AC-6 | If Google sign-in fails, a clear error message is displayed with a retry option.                                          |
+| AC-7 | The sign-in and profile pages are fully usable at 320px viewport width.                                                   |
 
 ---
 

@@ -67,17 +67,17 @@ Implement the frontend gamification experience: badge display on the profile/das
 
 ## Acceptance Criteria
 
-| #    | Criterion                                                                                                    |
-| ---- | ------------------------------------------------------------------------------------------------------------ |
-| AC-1 | The dashboard shows the user's total points, earned badges, current leaderboard rank, and daily streak.      |
-| AC-2 | Recently earned badges are highlighted with a "New!" indicator on the dashboard.                             |
-| AC-3 | An in-app notification appears when a new badge is earned, with badge name and congratulatory message.       |
-| AC-4 | The leaderboard page shows the Top 100 users ranked by total points.                                         |
-| AC-5 | The user's own rank is always visible on the leaderboard, even if outside the top 100.                       |
-| AC-6 | The user's entry on the leaderboard is visually highlighted.                                                  |
-| AC-7 | The profile page shows all earned badges with icons, names, descriptions, and dates.                         |
-| AC-8 | Unearned badges are shown as locked/greyed-out with criteria visible.                                        |
-| AC-9 | All gamification UI is functional at 320px viewport width.                                                    |
+| #    | Criterion                                                                                               |
+| ---- | ------------------------------------------------------------------------------------------------------- |
+| AC-1 | The dashboard shows the user's total points, earned badges, current leaderboard rank, and daily streak. |
+| AC-2 | Recently earned badges are highlighted with a "New!" indicator on the dashboard.                        |
+| AC-3 | An in-app notification appears when a new badge is earned, with badge name and congratulatory message.  |
+| AC-4 | The leaderboard page shows the Top 100 users ranked by total points.                                    |
+| AC-5 | The user's own rank is always visible on the leaderboard, even if outside the top 100.                  |
+| AC-6 | The user's entry on the leaderboard is visually highlighted.                                            |
+| AC-7 | The profile page shows all earned badges with icons, names, descriptions, and dates.                    |
+| AC-8 | Unearned badges are shown as locked/greyed-out with criteria visible.                                   |
+| AC-9 | All gamification UI is functional at 320px viewport width.                                              |
 
 ---
 

@@ -69,16 +69,16 @@ Build a set of shared, reusable UI components, each responsive and touch-friendl
 
 ## Acceptance Criteria
 
-| #    | Criterion                                                                                                    |
-| ---- | ------------------------------------------------------------------------------------------------------------ |
-| AC-1 | Design tokens are defined and applied consistently across all shared components.                              |
-| AC-2 | All shared components render correctly at mobile (320px), tablet (768px), and desktop (1024px+) viewports.   |
-| AC-3 | All interactive elements (buttons, form controls, links) meet the 44×44px minimum touch target.              |
-| AC-4 | No page produces horizontal scrolling at any viewport width ≥ 320px.                                         |
-| AC-5 | Swipe gestures work for lesson navigation and modal dismissal on touch devices.                               |
-| AC-6 | Skeleton loaders display during content loading states.                                                       |
-| AC-7 | The app renders correctly on all target browsers (Chrome, Safari, Firefox, Edge — desktop and mobile).       |
-| AC-8 | Images are responsive and optimized.                                                                          |
+| #    | Criterion                                                                                                  |
+| ---- | ---------------------------------------------------------------------------------------------------------- |
+| AC-1 | Design tokens are defined and applied consistently across all shared components.                           |
+| AC-2 | All shared components render correctly at mobile (320px), tablet (768px), and desktop (1024px+) viewports. |
+| AC-3 | All interactive elements (buttons, form controls, links) meet the 44×44px minimum touch target.            |
+| AC-4 | No page produces horizontal scrolling at any viewport width ≥ 320px.                                       |
+| AC-5 | Swipe gestures work for lesson navigation and modal dismissal on touch devices.                            |
+| AC-6 | Skeleton loaders display during content loading states.                                                    |
+| AC-7 | The app renders correctly on all target browsers (Chrome, Safari, Firefox, Edge — desktop and mobile).     |
+| AC-8 | Images are responsive and optimized.                                                                       |
 
 ---
 

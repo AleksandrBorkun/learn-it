@@ -57,16 +57,16 @@ Implement the user dashboard as the post-login landing page, showing an at-a-gla
 
 ## Acceptance Criteria
 
-| #    | Criterion                                                                                                    |
-| ---- | ------------------------------------------------------------------------------------------------------------ |
-| AC-1 | The dashboard displays all four tracks with correct completion percentages.                                   |
-| AC-2 | The "Continue Learning" shortcut navigates to the correct most-recently-active lesson.                       |
-| AC-3 | Started tracks are visually distinct from not-yet-started tracks.                                             |
-| AC-4 | The track overview shows per-module completion statuses and highlights the current lesson.                    |
-| AC-5 | Completing a lesson updates the progress bar on the track overview immediately.                               |
-| AC-6 | The user's current tier is displayed on the dashboard.                                                        |
-| AC-7 | The dashboard layout adapts correctly across mobile, tablet, and desktop viewports.                           |
-| AC-8 | Skeleton loaders appear while data is loading.                                                                |
+| #    | Criterion                                                                                  |
+| ---- | ------------------------------------------------------------------------------------------ |
+| AC-1 | The dashboard displays all four tracks with correct completion percentages.                |
+| AC-2 | The "Continue Learning" shortcut navigates to the correct most-recently-active lesson.     |
+| AC-3 | Started tracks are visually distinct from not-yet-started tracks.                          |
+| AC-4 | The track overview shows per-module completion statuses and highlights the current lesson. |
+| AC-5 | Completing a lesson updates the progress bar on the track overview immediately.            |
+| AC-6 | The user's current tier is displayed on the dashboard.                                     |
+| AC-7 | The dashboard layout adapts correctly across mobile, tablet, and desktop viewports.        |
+| AC-8 | Skeleton loaders appear while data is loading.                                             |
 
 ---
 

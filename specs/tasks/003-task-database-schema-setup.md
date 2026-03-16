@@ -33,39 +33,51 @@ Design and implement the core database schema, ORM/data access layer, and migrat
 Define the following entities and their relationships (schema only — no business logic):
 
 **User**
+
 - ID (primary key), Google ID (unique), email, display name, avatar URL, tier (free/premium), created at, updated at.
 
 **Track**
+
 - ID, name, slug, description, estimated duration, difficulty range, sort order.
 
 **Module**
+
 - ID, track ID (FK), name, slug, description, difficulty level (beginner/intermediate/advanced), sort order.
 
 **Lesson**
+
 - ID, module ID (FK), title, slug, content reference (Markdown file path), difficulty level, sort order.
 
 **Challenge**
+
 - ID, lesson ID (FK, nullable), module ID (FK), type (multiple-choice, multiple-select, write-function, fill-blank, design, prompt), definition reference (Markdown file path), sort order.
 
 **UserProgress**
+
 - ID, user ID (FK), lesson ID (FK), completed (boolean), completed at (timestamp).
 
 **UserAttempt**
+
 - ID, user ID (FK), challenge ID (FK), submitted at, is correct (boolean), response data (JSON).
 
 **CodeSnippet**
+
 - ID, user ID (FK), title, code content, language, tags (array), source lesson ID (FK, nullable), created at, updated at.
 
 **Badge**
+
 - ID, name, description, icon reference, milestone type, milestone threshold.
 
 **UserBadge**
+
 - ID, user ID (FK), badge ID (FK), earned at.
 
 **UserPoints**
+
 - User ID (FK), total points, last activity date, current streak days.
 
 **Certificate**
+
 - ID, user ID (FK), track ID (FK), certificate UID (unique public identifier), issued at.
 
 ### Seed Data
@@ -84,15 +96,15 @@ Define the following entities and their relationships (schema only — no busine
 
 ## Acceptance Criteria
 
-| #    | Criterion                                                                                                    |
-| ---- | ------------------------------------------------------------------------------------------------------------ |
+| #    | Criterion                                                                                                            |
+| ---- | -------------------------------------------------------------------------------------------------------------------- |
 | AC-1 | The database is provisioned and accessible from the backend API in both local development and deployed environments. |
-| AC-2 | All entity tables are created via migrations and match the defined schema.                                   |
-| AC-3 | Foreign key relationships and constraints are enforced at the database level.                                 |
-| AC-4 | Seed data for tracks, modules, lessons, badges, and point configurations is loadable.                        |
-| AC-5 | Repository interfaces for all entities are defined with standard CRUD operations.                            |
-| AC-6 | Connection pooling is configured for serverless deployment.                                                   |
-| AC-7 | Migrations can be run forward and rolled back without data corruption.                                        |
+| AC-2 | All entity tables are created via migrations and match the defined schema.                                           |
+| AC-3 | Foreign key relationships and constraints are enforced at the database level.                                        |
+| AC-4 | Seed data for tracks, modules, lessons, badges, and point configurations is loadable.                                |
+| AC-5 | Repository interfaces for all entities are defined with standard CRUD operations.                                    |
+| AC-6 | Connection pooling is configured for serverless deployment.                                                          |
+| AC-7 | Migrations can be run forward and rolled back without data corruption.                                               |
 
 ---
 

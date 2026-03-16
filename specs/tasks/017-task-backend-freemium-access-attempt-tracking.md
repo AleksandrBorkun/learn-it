@@ -68,16 +68,16 @@ Implement the backend logic for the two-tier freemium system: tier management (f
 
 ## Acceptance Criteria
 
-| #    | Criterion                                                                                                    |
-| ---- | ------------------------------------------------------------------------------------------------------------ |
-| AC-1 | A new user is on the Free tier by default.                                                                    |
-| AC-2 | Free-tier users can access beginner and intermediate content but not advanced content body.                   |
-| AC-3 | `GET /api/attempts/status` returns correct remaining attempts for a free-tier user.                           |
-| AC-4 | After 5 incorrect submissions, further submissions are rejected with a lockout message and cooldown time.    |
-| AC-5 | Attempts reset after the 12-hour window expires; the user can submit again.                                  |
-| AC-6 | Premium users have unlimited attempts and full content access including advanced.                             |
-| AC-7 | Upgrading a user to premium takes effect immediately — content unlocks and attempt limits are removed.       |
-| AC-8 | `GET /api/ads/config` returns `showAds: false` for premium and `showAds: true` for free-tier users.         |
+| #    | Criterion                                                                                                 |
+| ---- | --------------------------------------------------------------------------------------------------------- |
+| AC-1 | A new user is on the Free tier by default.                                                                |
+| AC-2 | Free-tier users can access beginner and intermediate content but not advanced content body.               |
+| AC-3 | `GET /api/attempts/status` returns correct remaining attempts for a free-tier user.                       |
+| AC-4 | After 5 incorrect submissions, further submissions are rejected with a lockout message and cooldown time. |
+| AC-5 | Attempts reset after the 12-hour window expires; the user can submit again.                               |
+| AC-6 | Premium users have unlimited attempts and full content access including advanced.                         |
+| AC-7 | Upgrading a user to premium takes effect immediately — content unlocks and attempt limits are removed.    |
+| AC-8 | `GET /api/ads/config` returns `showAds: false` for premium and `showAds: true` for free-tier users.       |
 
 ---
 

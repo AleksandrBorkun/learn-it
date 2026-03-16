@@ -76,15 +76,15 @@ Define and implement the Markdown-based content authoring framework, including t
 
 ## Acceptance Criteria
 
-| #    | Criterion                                                                                                    |
-| ---- | ------------------------------------------------------------------------------------------------------------ |
-| AC-1 | A canonical content directory structure is defined and documented.                                            |
-| AC-2 | Frontmatter schemas are defined for tracks, modules, lessons, and all six challenge types.                   |
-| AC-3 | A content provider interface exposes track, module, lesson, and challenge data.                               |
-| AC-4 | The Markdown file system provider correctly reads and parses content files.                                   |
-| AC-5 | Swapping the content provider implementation does not require changes to frontend rendering components.       |
-| AC-6 | Markdown content renders with full support: headings, lists, code blocks, images, links, tables.             |
-| AC-7 | Placeholder content exists for at least one track with all challenge types represented.                       |
+| #    | Criterion                                                                                               |
+| ---- | ------------------------------------------------------------------------------------------------------- |
+| AC-1 | A canonical content directory structure is defined and documented.                                      |
+| AC-2 | Frontmatter schemas are defined for tracks, modules, lessons, and all six challenge types.              |
+| AC-3 | A content provider interface exposes track, module, lesson, and challenge data.                         |
+| AC-4 | The Markdown file system provider correctly reads and parses content files.                             |
+| AC-5 | Swapping the content provider implementation does not require changes to frontend rendering components. |
+| AC-6 | Markdown content renders with full support: headings, lists, code blocks, images, links, tables.        |
+| AC-7 | Placeholder content exists for at least one track with all challenge types represented.                 |
 
 ---
 

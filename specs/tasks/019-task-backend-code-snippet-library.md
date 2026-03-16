@@ -59,16 +59,16 @@ Implement the backend CRUD API for the personal code snippet library. Users can 
 
 ## Acceptance Criteria
 
-| #    | Criterion                                                                                                    |
-| ---- | ------------------------------------------------------------------------------------------------------------ |
-| AC-1 | A user can create a snippet with title, code, language, and optional tags.                                   |
-| AC-2 | A user can list their snippets with pagination.                                                               |
-| AC-3 | A user can search snippets by title or code content and see matching results.                                |
-| AC-4 | A user can filter snippets by tag or programming language.                                                    |
-| AC-5 | A user can update a snippet's title, code, language, and tags.                                               |
-| AC-6 | A user can delete a snippet and it no longer appears in their library.                                        |
-| AC-7 | A user cannot access, update, or delete another user's snippets (403 response).                              |
-| AC-8 | Snippets saved from a lesson include the source lesson reference.                                             |
+| #    | Criterion                                                                       |
+| ---- | ------------------------------------------------------------------------------- |
+| AC-1 | A user can create a snippet with title, code, language, and optional tags.      |
+| AC-2 | A user can list their snippets with pagination.                                 |
+| AC-3 | A user can search snippets by title or code content and see matching results.   |
+| AC-4 | A user can filter snippets by tag or programming language.                      |
+| AC-5 | A user can update a snippet's title, code, language, and tags.                  |
+| AC-6 | A user can delete a snippet and it no longer appears in their library.          |
+| AC-7 | A user cannot access, update, or delete another user's snippets (403 response). |
+| AC-8 | Snippets saved from a lesson include the source lesson reference.               |
 
 ---
 

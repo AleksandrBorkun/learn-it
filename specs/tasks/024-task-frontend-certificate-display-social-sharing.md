@@ -80,17 +80,17 @@ Implement the frontend for displaying earned certificates on the profile/dashboa
 
 ## Acceptance Criteria
 
-| #    | Criterion                                                                                                    |
-| ---- | ------------------------------------------------------------------------------------------------------------ |
-| AC-1 | All earned certificates are visible on the user's profile/dashboard with view, download, and share actions.  |
-| AC-2 | The certificate is downloadable as an image and as a PDF.                                                     |
-| AC-3 | A user can share a certificate to LinkedIn and a rich preview (image, text, link) appears in the post.       |
-| AC-4 | A user can share a certificate to X/Twitter and Facebook with appropriate rich previews.                     |
-| AC-5 | A user can share a badge to LinkedIn, X/Twitter, and Facebook.                                                |
-| AC-6 | The public verification page displays certificate details and confirms authenticity.                          |
-| AC-7 | The verification page includes Open Graph and Twitter Card meta tags for rich social previews.                |
-| AC-8 | An invalid certificate UID shows a "Certificate not found" message on the verification page.                 |
-| AC-9 | Certificate and share functionality works correctly on mobile.                                                 |
+| #    | Criterion                                                                                                   |
+| ---- | ----------------------------------------------------------------------------------------------------------- |
+| AC-1 | All earned certificates are visible on the user's profile/dashboard with view, download, and share actions. |
+| AC-2 | The certificate is downloadable as an image and as a PDF.                                                   |
+| AC-3 | A user can share a certificate to LinkedIn and a rich preview (image, text, link) appears in the post.      |
+| AC-4 | A user can share a certificate to X/Twitter and Facebook with appropriate rich previews.                    |
+| AC-5 | A user can share a badge to LinkedIn, X/Twitter, and Facebook.                                              |
+| AC-6 | The public verification page displays certificate details and confirms authenticity.                        |
+| AC-7 | The verification page includes Open Graph and Twitter Card meta tags for rich social previews.              |
+| AC-8 | An invalid certificate UID shows a "Certificate not found" message on the verification page.                |
+| AC-9 | Certificate and share functionality works correctly on mobile.                                              |
 
 ---
 

@@ -53,15 +53,15 @@ Implement the backend API for recording, retrieving, and syncing user learning p
 
 ## Acceptance Criteria
 
-| #    | Criterion                                                                                                    |
-| ---- | ------------------------------------------------------------------------------------------------------------ |
-| AC-1 | Marking a lesson as complete persists the completion status to the user's account.                            |
-| AC-2 | If a lesson has an associated challenge that is not passed, the completion endpoint rejects the request.      |
-| AC-3 | `GET /api/progress` returns correct per-track completion percentages and per-module statuses.                 |
-| AC-4 | `GET /api/dashboard` returns the aggregated dashboard payload with tracks, progress, and resume point.       |
-| AC-5 | The resume point correctly identifies the first incomplete lesson per track.                                  |
+| #    | Criterion                                                                                                            |
+| ---- | -------------------------------------------------------------------------------------------------------------------- |
+| AC-1 | Marking a lesson as complete persists the completion status to the user's account.                                   |
+| AC-2 | If a lesson has an associated challenge that is not passed, the completion endpoint rejects the request.             |
+| AC-3 | `GET /api/progress` returns correct per-track completion percentages and per-module statuses.                        |
+| AC-4 | `GET /api/dashboard` returns the aggregated dashboard payload with tracks, progress, and resume point.               |
+| AC-5 | The resume point correctly identifies the first incomplete lesson per track.                                         |
 | AC-6 | Completing all lessons in a module marks the module as complete; completing all modules marks the track as complete. |
-| AC-7 | Progress data is identical when accessed from two different sessions/devices for the same user.               |
+| AC-7 | Progress data is identical when accessed from two different sessions/devices for the same user.                      |
 
 ---
 
