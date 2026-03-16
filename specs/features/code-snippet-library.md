@@ -4,7 +4,7 @@
 **Version:** 1.0  
 **Last Updated:** 16 March 2026  
 **Status:** Draft  
-**PRD Traceability:** REQ-12, REQ-13  
+**PRD Traceability:** REQ-12, REQ-13
 
 ---
 
@@ -53,46 +53,48 @@ so that I can use the library for all my useful code.
 
 ### 4.1 Saving Snippets
 
-| ID | Requirement |
-|----|-------------|
-| SNIP-1 | Users must be able to save a code snippet from within a lesson page (e.g., via a "Save to Library" action on code blocks). |
-| SNIP-2 | Users must be able to create a new snippet manually by entering a title, code content, and optional language/tags. |
+| ID     | Requirement                                                                                                                                                        |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| SNIP-1 | Users must be able to save a code snippet from within a lesson page (e.g., via a "Save to Library" action on code blocks).                                         |
+| SNIP-2 | Users must be able to create a new snippet manually by entering a title, code content, and optional language/tags.                                                 |
 | SNIP-3 | Each saved snippet must store: title, code content, programming language, tags (optional), source reference (lesson/track if saved from a lesson), and date saved. |
 
 ### 4.2 Organizing Snippets
 
-| ID | Requirement |
-|----|-------------|
-| SNIP-4 | Users must be able to assign one or more **tags** to each snippet. |
+| ID     | Requirement                                                                                  |
+| ------ | -------------------------------------------------------------------------------------------- |
+| SNIP-4 | Users must be able to assign one or more **tags** to each snippet.                           |
 | SNIP-5 | Users must be able to edit a snippet's title, code content, tags, and language after saving. |
-| SNIP-6 | Users must be able to delete a snippet from their library. |
+| SNIP-6 | Users must be able to delete a snippet from their library.                                   |
 
 ### 4.3 Browsing & Searching
 
-| ID | Requirement |
-|----|-------------|
-| SNIP-7 | The snippet library must provide a list/grid view of all saved snippets. |
-| SNIP-8 | Users must be able to **search** snippets by title, code content, or tags. |
-| SNIP-9 | Users must be able to **filter** snippets by tag or programming language. |
+| ID      | Requirement                                                                   |
+| ------- | ----------------------------------------------------------------------------- |
+| SNIP-7  | The snippet library must provide a list/grid view of all saved snippets.      |
+| SNIP-8  | Users must be able to **search** snippets by title, code content, or tags.    |
+| SNIP-9  | Users must be able to **filter** snippets by tag or programming language.     |
 | SNIP-10 | Snippets must display with syntax highlighting appropriate to their language. |
 
 ### 4.4 Snippet Detail View
 
-| ID | Requirement |
-|----|-------------|
+| ID      | Requirement                                                                                                                        |
+| ------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | SNIP-11 | Users must be able to view a snippet in full with its code, metadata (language, tags, source), and a **copy-to-clipboard** action. |
-| SNIP-12 | If the snippet was saved from a lesson, the detail view must include a link back to the source lesson. |
+| SNIP-12 | If the snippet was saved from a lesson, the detail view must include a link back to the source lesson.                             |
 
 ---
 
 ## 5. Inputs & Outputs
 
 ### Inputs
+
 - Code block content from lesson pages (via "Save to Library" action)
 - User-authored snippet content (title, code, language, tags)
 - Search queries and filter selections
 
 ### Outputs
+
 - Saved snippet records associated with the user's account
 - Snippet library view (list/grid with search and filter)
 - Snippet detail view with syntax-highlighted code and metadata
@@ -102,27 +104,27 @@ so that I can use the library for all my useful code.
 
 ## 6. Dependencies
 
-| Dependency | Direction | Description |
-|------------|-----------|-------------|
-| User Authentication | Upstream | Snippets are stored per-user; requires authenticated session. |
-| Learning Tracks & Content Structure | Upstream | Lesson code blocks are the primary source for saving snippets. |
-| Mobile-First Design | Peer | The snippet library and detail views must be fully usable on mobile. |
+| Dependency                          | Direction | Description                                                          |
+| ----------------------------------- | --------- | -------------------------------------------------------------------- |
+| User Authentication                 | Upstream  | Snippets are stored per-user; requires authenticated session.        |
+| Learning Tracks & Content Structure | Upstream  | Lesson code blocks are the primary source for saving snippets.       |
+| Mobile-First Design                 | Peer      | The snippet library and detail views must be fully usable on mobile. |
 
 ---
 
 ## 7. Acceptance Criteria
 
-| # | Criterion |
-|---|-----------|
-| AC-1 | A user can save a code snippet from a lesson page and find it in their snippet library. |
-| AC-2 | A user can create a new snippet manually with title, code, language, and tags. |
-| AC-3 | A user can search snippets by title or code content and see matching results. |
-| AC-4 | A user can filter snippets by tag or programming language. |
-| AC-5 | A user can edit a snippet's title, code, tags, and language. |
-| AC-6 | A user can delete a snippet and it no longer appears in the library. |
+| #    | Criterion                                                                                 |
+| ---- | ----------------------------------------------------------------------------------------- |
+| AC-1 | A user can save a code snippet from a lesson page and find it in their snippet library.   |
+| AC-2 | A user can create a new snippet manually with title, code, language, and tags.            |
+| AC-3 | A user can search snippets by title or code content and see matching results.             |
+| AC-4 | A user can filter snippets by tag or programming language.                                |
+| AC-5 | A user can edit a snippet's title, code, tags, and language.                              |
+| AC-6 | A user can delete a snippet and it no longer appears in the library.                      |
 | AC-7 | Snippet detail view shows syntax-highlighted code and a working copy-to-clipboard button. |
-| AC-8 | A snippet saved from a lesson includes a link back to the source lesson. |
-| AC-9 | The snippet library is usable on a 320px-wide mobile screen. |
+| AC-8 | A snippet saved from a lesson includes a link back to the source lesson.                  |
+| AC-9 | The snippet library is usable on a 320px-wide mobile screen.                              |
 
 ---
 

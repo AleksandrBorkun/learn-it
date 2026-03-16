@@ -3,7 +3,7 @@
 **Product Name:** LearnIt — Software Development Learning Platform  
 **Version:** 0.2  
 **Last Updated:** 16 March 2026  
-**Status:** Active — Requirements confirmed  
+**Status:** Active — Requirements confirmed
 
 ---
 
@@ -52,15 +52,15 @@ Many aspiring and junior software developers struggle to find a single, structur
 
 ### Business Goals
 
-| # | Goal | Success Metric | Target (6 months post-launch) |
-|---|------|---------------|-------------------------------|
-| G1 | Acquire a meaningful user base | Registered users | 10,000 |
-| G2 | Drive engagement and retention | Weekly active users (WAU) | 30% of registered users |
-| G3 | Validate premium conversion | Free → Premium conversion rate | ≥ 5% |
-| G4 | Generate ad revenue from free tier | Ad impressions / month | Tied to WAU growth |
-| G5 | Deliver high-quality learning outcomes | Average quiz/challenge pass rate | ≥ 65% |
-| G6 | Drive engagement through gamification | Users earning at least 1 badge | ≥ 50% of active users |
-| G7 | Amplify organic growth via social sharing | Certificates shared to social media / month | 500+ |
+| #   | Goal                                      | Success Metric                              | Target (6 months post-launch) |
+| --- | ----------------------------------------- | ------------------------------------------- | ----------------------------- |
+| G1  | Acquire a meaningful user base            | Registered users                            | 10,000                        |
+| G2  | Drive engagement and retention            | Weekly active users (WAU)                   | 30% of registered users       |
+| G3  | Validate premium conversion               | Free → Premium conversion rate              | ≥ 5%                          |
+| G4  | Generate ad revenue from free tier        | Ad impressions / month                      | Tied to WAU growth            |
+| G5  | Deliver high-quality learning outcomes    | Average quiz/challenge pass rate            | ≥ 65%                         |
+| G6  | Drive engagement through gamification     | Users earning at least 1 badge              | ≥ 50% of active users         |
+| G7  | Amplify organic growth via social sharing | Certificates shared to social media / month | 500+                          |
 
 ### User Goals
 
@@ -277,12 +277,12 @@ As a learner, I want to see the output of my code in real time, so that I can it
 
 ## 7. Open Questions
 
-| # | Question | Answer | Status |
-|---|----------|--------|--------|
-| Q1 | Should login support social providers (Google, GitHub) in addition to email/password? | **Google Sign-In only** for v1. No email/password. | ✅ Resolved |
-| Q2 | What is the premium pricing model — monthly subscription, annual, per-track, or one-time? | **One-time purchase** for the entire app (lifetime access). | ✅ Resolved |
-| Q3 | Does the "5 mistakes" limit reset daily, per quiz, per track, or is it a lifetime cap? | **5 mistakes per 12-hour rolling window**, across all challenges. | ✅ Resolved |
-| Q4 | Should code challenges run in-browser with live output, or is a simpler "submit answer" model acceptable for v1? | **In-browser live code editor** with real-time output. | ✅ Resolved |
-| Q5 | Is gamification (badges, streaks, leaderboards) desired for v1 or a later release? | **Yes, v1.** Badges, leaderboard, and certificates of completion. | ✅ Resolved |
-| Q6 | Will there be an admin/content management interface, or will content be managed via static files? | **Markdown files** for v1. Future migration to headless CMS (e.g., Contentful). | ✅ Resolved |
-| Q7 | Are certificates of completion a v1 requirement or future enhancement? | **v1 requirement.** Shareable to social media (LinkedIn, X/Twitter, Facebook). | ✅ Resolved |
+| #   | Question                                                                                                         | Answer                                                                          | Status      |
+| --- | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ----------- |
+| Q1  | Should login support social providers (Google, GitHub) in addition to email/password?                            | **Google Sign-In only** for v1. No email/password.                              | ✅ Resolved |
+| Q2  | What is the premium pricing model — monthly subscription, annual, per-track, or one-time?                        | **One-time purchase** for the entire app (lifetime access).                     | ✅ Resolved |
+| Q3  | Does the "5 mistakes" limit reset daily, per quiz, per track, or is it a lifetime cap?                           | **5 mistakes per 12-hour rolling window**, across all challenges.               | ✅ Resolved |
+| Q4  | Should code challenges run in-browser with live output, or is a simpler "submit answer" model acceptable for v1? | **In-browser live code editor** with real-time output.                          | ✅ Resolved |
+| Q5  | Is gamification (badges, streaks, leaderboards) desired for v1 or a later release?                               | **Yes, v1.** Badges, leaderboard, and certificates of completion.               | ✅ Resolved |
+| Q6  | Will there be an admin/content management interface, or will content be managed via static files?                | **Markdown files** for v1. Future migration to headless CMS (e.g., Contentful). | ✅ Resolved |
+| Q7  | Are certificates of completion a v1 requirement or future enhancement?                                           | **v1 requirement.** Shareable to social media (LinkedIn, X/Twitter, Facebook).  | ✅ Resolved |

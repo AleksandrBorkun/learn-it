@@ -4,7 +4,7 @@
 **Version:** 1.0  
 **Last Updated:** 16 March 2026  
 **Status:** Draft  
-**PRD Traceability:** REQ-6, REQ-7, REQ-8  
+**PRD Traceability:** REQ-6, REQ-7, REQ-8
 
 ---
 
@@ -53,49 +53,51 @@ so that I can switch devices seamlessly.
 
 ### 4.1 Progress Recording
 
-| ID | Requirement |
-|----|-------------|
-| PROG-1 | The system must record the completion status of each lesson for each user. |
+| ID     | Requirement                                                                                                                                            |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| PROG-1 | The system must record the completion status of each lesson for each user.                                                                             |
 | PROG-2 | A lesson is considered "complete" when the user reaches the end of the lesson content **and** passes any associated quiz or challenge (if one exists). |
-| PROG-3 | A module is considered "complete" when all lessons within the module are complete. |
-| PROG-4 | A track is considered "complete" when all modules within the track are complete. |
-| PROG-5 | Progress must be persisted to the user's account and available across sessions and devices (REQ-7). |
+| PROG-3 | A module is considered "complete" when all lessons within the module are complete.                                                                     |
+| PROG-4 | A track is considered "complete" when all modules within the track are complete.                                                                       |
+| PROG-5 | Progress must be persisted to the user's account and available across sessions and devices (REQ-7).                                                    |
 
 ### 4.2 Progress Display
 
-| ID | Requirement |
-|----|-------------|
+| ID     | Requirement                                                                                                        |
+| ------ | ------------------------------------------------------------------------------------------------------------------ |
 | PROG-6 | Each track must display a visual progress indicator (e.g., progress bar or percentage) showing overall completion. |
-| PROG-7 | Each module within a track must show its individual completion status (not started / in progress / complete). |
-| PROG-8 | The current lesson (i.e., next incomplete lesson) must be clearly highlighted so the user can resume immediately. |
+| PROG-7 | Each module within a track must show its individual completion status (not started / in progress / complete).      |
+| PROG-8 | The current lesson (i.e., next incomplete lesson) must be clearly highlighted so the user can resume immediately.  |
 
 ### 4.3 Dashboard
 
-| ID | Requirement |
-|----|-------------|
-| PROG-9 | The dashboard must be the default landing page after sign-in. |
-| PROG-10 | The dashboard must display all tracks with the user's progress in each (even if 0%). |
-| PROG-11 | Tracks the user has started must be visually distinguished from tracks not yet started. |
-| PROG-12 | The dashboard must show a "Continue Learning" shortcut that takes the user directly to their most recently active lesson. |
+| ID      | Requirement                                                                                                                       |
+| ------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| PROG-9  | The dashboard must be the default landing page after sign-in.                                                                     |
+| PROG-10 | The dashboard must display all tracks with the user's progress in each (even if 0%).                                              |
+| PROG-11 | Tracks the user has started must be visually distinguished from tracks not yet started.                                           |
+| PROG-12 | The dashboard must show a "Continue Learning" shortcut that takes the user directly to their most recently active lesson.         |
 | PROG-13 | The dashboard must display the user's earned badges, certificates, and leaderboard rank (see Gamification and Certificates FRDs). |
-| PROG-14 | The dashboard must indicate the user's current tier (Free or Premium). |
+| PROG-14 | The dashboard must indicate the user's current tier (Free or Premium).                                                            |
 
 ### 4.4 Cross-Device Sync
 
-| ID | Requirement |
-|----|-------------|
+| ID      | Requirement                                                                                        |
+| ------- | -------------------------------------------------------------------------------------------------- |
 | PROG-15 | Progress data must be tied to the authenticated user account, not to a specific device or browser. |
-| PROG-16 | When a user signs in on a new device, all progress must be immediately reflected. |
+| PROG-16 | When a user signs in on a new device, all progress must be immediately reflected.                  |
 
 ---
 
 ## 5. Inputs & Outputs
 
 ### Inputs
+
 - Lesson completion events (user finishes a lesson, passes a quiz/challenge)
 - User authentication context (to associate progress with the correct account)
 
 ### Outputs
+
 - Per-track, per-module, and per-lesson completion status
 - Dashboard view data (track list, progress percentages, "continue learning" target, badges, tier)
 - Resume-point information (last active lesson per track)
@@ -104,27 +106,27 @@ so that I can switch devices seamlessly.
 
 ## 6. Dependencies
 
-| Dependency | Direction | Description |
-|------------|-----------|-------------|
-| User Authentication | Upstream | Progress is tied to authenticated user accounts. |
-| Learning Tracks & Content Structure | Upstream | The track → module → lesson hierarchy defines the units of progress. |
-| Quizzes & Code Challenges | Upstream | Lesson completion may depend on passing an associated quiz/challenge. |
-| Gamification System | Peer | Dashboard displays badges, points, and leaderboard rank. |
-| Certificates & Social Sharing | Peer | Dashboard displays earned certificates. |
-| Freemium Access Model | Peer | Dashboard shows user's current tier (Free/Premium). |
+| Dependency                          | Direction | Description                                                           |
+| ----------------------------------- | --------- | --------------------------------------------------------------------- |
+| User Authentication                 | Upstream  | Progress is tied to authenticated user accounts.                      |
+| Learning Tracks & Content Structure | Upstream  | The track → module → lesson hierarchy defines the units of progress.  |
+| Quizzes & Code Challenges           | Upstream  | Lesson completion may depend on passing an associated quiz/challenge. |
+| Gamification System                 | Peer      | Dashboard displays badges, points, and leaderboard rank.              |
+| Certificates & Social Sharing       | Peer      | Dashboard displays earned certificates.                               |
+| Freemium Access Model               | Peer      | Dashboard shows user's current tier (Free/Premium).                   |
 
 ---
 
 ## 7. Acceptance Criteria
 
-| # | Criterion |
-|---|-----------|
+| #    | Criterion                                                                                 |
+| ---- | ----------------------------------------------------------------------------------------- |
 | AC-1 | After completing a lesson, the progress bar for the containing track updates immediately. |
-| AC-2 | A user who signs in on a different device sees the same progress state. |
-| AC-3 | The dashboard shows all four tracks with correct completion percentages. |
-| AC-4 | The "Continue Learning" shortcut navigates to the correct next incomplete lesson. |
-| AC-5 | A track shows as "Complete" only when every module and lesson within it is finished. |
-| AC-6 | The dashboard displays earned badges, certificates, leaderboard rank, and current tier. |
+| AC-2 | A user who signs in on a different device sees the same progress state.                   |
+| AC-3 | The dashboard shows all four tracks with correct completion percentages.                  |
+| AC-4 | The "Continue Learning" shortcut navigates to the correct next incomplete lesson.         |
+| AC-5 | A track shows as "Complete" only when every module and lesson within it is finished.      |
+| AC-6 | The dashboard displays earned badges, certificates, leaderboard rank, and current tier.   |
 
 ---
 
