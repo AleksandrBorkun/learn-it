@@ -35,6 +35,10 @@ dotnet restore
 # Install Node.js dependencies
 cd frontend
 npm install
+
+# Copy environment variables template
+cp .env.example .env.local
+# Edit .env.local with your configuration (API URL, Google Client ID, etc.)
 ```
 
 ### 3. Configure Environment
